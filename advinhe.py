@@ -27,6 +27,11 @@ def computador_advinha(x):
             menor = chute + 1
     print("Eba! O computador advinhou o seu número!")
 
-
+print('Bem vindo(a) ao jogo Advinhe o Número! \nTente advinhar o número secreto do computador.')
 advinhe(1000)
+
+print("----------------------------------------------")
+print("Agora é a sua vez de escolher um número secrete entre 1 e 1000 para o computador advinhar! \n" \
+"Escolha um número e dê ao computador um feedback sobre o chute dele.")
 computador_advinha(1000)
+print("Obrigada por jogar!")
